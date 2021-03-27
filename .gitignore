@@ -11,6 +11,7 @@
 # production
 /build
 README.old.md
+.nova
 
 # misc
 .DS_Store

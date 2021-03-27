@@ -1,13 +1,12 @@
-import './scss/App.scss';
+import Header from './components/Header'
+import './scss/App.scss'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <Header />
     </div>
   );
 }
 
-export default App;
+export default App

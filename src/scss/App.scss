@@ -1,1 +1,52 @@
+@import "_typography.scss";
+@import "_colors.scss";
+
+header {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+%headings {
+  font-family: "Glacial Indifference";
+  font-weight: 400;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+h1 {
+  @extend %headings;
+  font-size: 10em;
+  color: $yellow;
+  text-shadow: 
+    -0.025em 0 0 $cyan,
+    0.025em 0 0 $pink;
+  transform: rotate(-5deg);
+  margin: -0.33em 0 0 0.25em;
+}
+
+h1 + h1 {
+  color: $red;
+  margin-top: -0.43em;
+  transform: translate(0.18em) rotate(6deg);
+}
+
+h2 {
+  @extend %headings;
+  font-size: 4.1em;
+  color: $red;
+  text-shadow: 
+    -0.025em 0 0 $cyan,
+    0.025em 0 0 $pink;
+}
+
+h3 {
+  @extend %headings;
+  color: darkgreen;
+  font-size: 3.3em;
+  margin: -0.2em 0 0 0.4em;
+  text-shadow: 
+    -0.025em 0 0 $cyan,
+    0.025em 0 0 $pink;
+}
+
 
