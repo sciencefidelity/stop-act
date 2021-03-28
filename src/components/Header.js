@@ -1,10 +1,11 @@
 const Header = () => {
   return (
     <header>
-      <h2>Climate Change</h2>
-      <h3>Exhibition</h3>
-      <h1>Stop!</h1>
-      <h1>Act!</h1>
+      <div id="title">
+        <h1>Stop!</h1>
+        <h1>Act!</h1>
+      </div>
+        <div id="tagline"><p>artists speak out against climate change</p></div>
     </header>
   )
 }
