@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+* + * {
+  margin-top: 1rem;
+}
+
+html {
+  font-family: "Sofia Pro", sans-serif;
+  font-size: 65.5%;
+}
+
+body {
+  background: $body;
+  color: $text;
+}
+
