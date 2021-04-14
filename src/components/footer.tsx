@@ -1,22 +1,21 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
-const Header = ({ siteTitle }) => (
-  <header>
+const Footer = ({ siteTitle }) => (
+  <footer>
     <div>
 
     </div>
-  </header>
+  </footer>
 )
 
-Header.propTypes = {
+Footer.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+Footer.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Footer
