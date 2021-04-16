@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Mid Wales Arts | Gallery, Sculpture Trail, Cafe & Accommodation`,
     description: `Not-for-profit organisation working with artists and the local community to develop access to the arts across Mid Wales.`,
-    author: `@gatsbyjs`,
+    author: `@sciencefidelity`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,12 +26,9 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/mwa-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/mwa-icon.png`,
       },
     },
     `gatsby-plugin-gatsby-cloud`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
