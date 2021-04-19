@@ -1,5 +1,5 @@
-# Mid Wales Arts
+# Matt Cook Art
 
-Site in development for [midwalesarts.org.uk](http://midwalesarts.org.uk).
+Site in development for [mattcook.art](http://mattcook.art).
 
 Made with [Gatsby](https://www.gatsbyjs.com/).
